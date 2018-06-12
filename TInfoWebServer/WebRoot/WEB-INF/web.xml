@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>com.zjw.servlet.Login</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Register</servlet-name>
+    <servlet-class>com.zjw.servlet.Register</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserInfoSetting</servlet-name>
+    <servlet-class>com.zjw.servlet.UserInfoSetting</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChangePwd</servlet-name>
+    <servlet-class>com.zjw.servlet.ChangePwd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetUserInfo</servlet-name>
+    <servlet-class>com.zjw.servlet.GetUserInfo</servlet-class>
+  </servlet>
+
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminLogin</servlet-name>
+    <servlet-class>com.zjw.servlet.AdminLogin</servlet-class>
+  </servlet>
+
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetOrderList</servlet-name>
+    <servlet-class>com.zjw.servlet.GetOrderList</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetUserList</servlet-name>
+    <servlet-class>com.zjw.servlet.GetUserList</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelUser</servlet-name>
+    <servlet-class>com.zjw.servlet.DelUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddUser</servlet-name>
+    <servlet-class>com.zjw.servlet.AddUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateMoney</servlet-name>
+    <servlet-class>com.zjw.servlet.UpdateMoney</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetTDList</servlet-name>
+    <servlet-class>com.zjw.servlet.GetTDList</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddSQ</servlet-name>
+    <servlet-class>com.zjw.servlet.AddSQ</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetMySQList</servlet-name>
+    <servlet-class>com.zjw.servlet.GetMySQList</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetAllSQList</servlet-name>
+    <servlet-class>com.zjw.servlet.GetAllSQList</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateSH</servlet-name>
+    <servlet-class>com.zjw.servlet.UpdateSH</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelTD</servlet-name>
+    <servlet-class>com.zjw.servlet.DelTD</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddTD</servlet-name>
+    <servlet-class>com.zjw.servlet.AddTD</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddKC</servlet-name>
+    <servlet-class>com.zjw.servlet.AddKC</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetKCList</servlet-name>
+    <servlet-class>com.zjw.servlet.GetKCList</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminCK</servlet-name>
+    <servlet-class>com.zjw.servlet.AdminCK</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetSrList</servlet-name>
+    <servlet-class>com.zjw.servlet.GetSrList</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelKC</servlet-name>
+    <servlet-class>com.zjw.servlet.DelKC</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetLS</servlet-name>
+    <servlet-class>com.zjw.servlet.GetLS</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelLS</servlet-name>
+    <servlet-class>com.zjw.servlet.DelLS</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/servlet/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Register</servlet-name>
+    <url-pattern>/servlet/Register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserInfoSetting</servlet-name>
+    <url-pattern>/servlet/UserInfoSetting</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangePwd</servlet-name>
+    <url-pattern>/servlet/ChangePwd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetUserInfo</servlet-name>
+    <url-pattern>/servlet/GetUserInfo</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>AdminLogin</servlet-name>
+    <url-pattern>/servlet/AdminLogin</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>GetUserList</servlet-name>
+    <url-pattern>/servlet/GetUserList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelUser</servlet-name>
+    <url-pattern>/servlet/DelUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddUser</servlet-name>
+    <url-pattern>/servlet/AddUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateMoney</servlet-name>
+    <url-pattern>/servlet/UpdateMoney</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetTDList</servlet-name>
+    <url-pattern>/servlet/GetTDList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddSQ</servlet-name>
+    <url-pattern>/servlet/AddSQ</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetMySQList</servlet-name>
+    <url-pattern>/servlet/GetMySQList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetAllSQList</servlet-name>
+    <url-pattern>/servlet/GetAllSQList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateSH</servlet-name>
+    <url-pattern>/servlet/UpdateSH</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelTD</servlet-name>
+    <url-pattern>/servlet/DelTD</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddTD</servlet-name>
+    <url-pattern>/servlet/AddTD</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddKC</servlet-name>
+    <url-pattern>/servlet/AddKC</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetKCList</servlet-name>
+    <url-pattern>/servlet/GetKCList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminCK</servlet-name>
+    <url-pattern>/servlet/AdminCK</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetSrList</servlet-name>
+    <url-pattern>/servlet/GetSrList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelKC</servlet-name>
+    <url-pattern>/servlet/DelKC</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetLS</servlet-name>
+    <url-pattern>/servlet/GetLS</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelLS</servlet-name>
+    <url-pattern>/servlet/DelLS</url-pattern>
+  </servlet-mapping>
+
+ 
+
+<welcome-file-list>
+<welcome-file>login.jsp</welcome-file>
+</welcome-file-list>
+
+</web-app>

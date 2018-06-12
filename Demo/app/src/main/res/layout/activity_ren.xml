@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include layout="@layout/common_toolbar"/>
+        <LinearLayout
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/hh"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="名称"
+                    android:maxLines="1"/>
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/gg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="规格"
+                    android:maxLines="1"/>
+            </android.support.design.widget.TextInputLayout>
+            <android.support.v7.widget.AppCompatButton
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:id="@+id/btn_cx"
+                android:layout_marginTop="16dp"
+                android:text="查询"
+                />
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/lv"
+            style="@style/common_listview"></ListView>
+    </LinearLayout>
+
+</RelativeLayout>

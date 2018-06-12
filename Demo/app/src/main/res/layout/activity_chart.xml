@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <include layout="@layout/common_toolbar"/>
+    <TextView
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:id="@+id/tv_sr"
+        android:padding="16dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <lecho.lib.hellocharts.view.LineChartView
+
+        android:layout_margin="4dp"
+        android:id="@+id/lcv"
+        android:layout_width="match_parent"
+        android:padding="4dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>
